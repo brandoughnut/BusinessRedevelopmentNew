@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Landing Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/style3.css" />
+  </head>
+  <body class="brandonBody">
+    <!-- mobile navbar start -->
+    <nav
+      class="navbar navbar-expand-lg g-0 d-lg-none d-xl-none d-xxl-none fixed-top"
+      style="padding: 0; margin-top: 2%"
+    >
+      <div class="container-fluid g-0 d-flex justify-content-end">
+        <button
+          class="navbar-toggler custom-toggler brandonNavToggle"
+          style="margin-right: 5%"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+          style="background-color: rgb(238, 215, 197)"
+        >
+          <ul class="navbar-nav text-center">
+            <li><hr /></li>
+            <li class="nav-item">
+              <a class="brandonStickyNav" href="index.html">Home</a>
+            </li>
+            <li><hr class="" /></li>
+            <li class="nav-item dropdown brandonNavDropdown ms-1">
+              <a
+                class="brandonStickyNav"
+                href="./pages/Menu.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Menu>
+              </a>
+              <ul
+                class="dropdown-menu brandonNavDrop brandonNavDropMenu"
+                style="background-color: rgb(238, 215, 197)"
+              >
+                <li>
+                  <a
+                    class="dropdown-item text-center"
+                    href="./pages/Appetizers.html"
+                    >Appetizers & Salads</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a
+                    class="dropdown-item text-center"
+                    href="./pages/SizzlingPlate.Html"
+                    >Sizzling Plate / Sukiyaki</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a
+                    class="dropdown-item text-center"
+                    href="./pages/Entree.html"
+                    >Entrees & Bentos</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item text-center" href="./pages/Ramen.html"
+                    >Ramen / Udon & Soba</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a
+                    class="dropdown-item text-center"
+                    href="./pages/Donburi.html"
+                    >Donburi & Sashimi</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item text-center" href="./pages/Rolls.html"
+                    >Sushi Rolls</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a
+                    class="dropdown-item text-center"
+                    href="./pages/Desserts.html"
+                    >Desserts & Drinks</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li><hr class="" /></li>
+            <li class="nav-item mb-3">
+              <a class="brandonStickyNav" href="./pages/Gallery.html"
+                >Gallery</a
+              >
+            </li>
+            <a
+              class="brandonStickyNavOrder nav-item brandonNavOrder"
+              style="padding-top: 15px; margin-bottom: 2%"
+              href="https://app.masa.plus/store/4367"
+              >Order Online</a
+            >
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- mobile navbar end -->
+
+    <!-- Hero Image start -->
+    <div
+      class="container-fluid d-flex justify-content-center brandonDesktopHero"
+      style="padding: 0"
+    >
+      <!-- hide in phone mode -->
+      <div
+        class="d-none d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block d-flex flex-column align-items-center"
+      >
+        <div class="row align-items-center brandonLogoBox">
+          <img
+            class="img-fluid"
+            src="./assets/desktoplogo.png"
+            alt="Komachi logo"
+          />
+        </div>
+        <div
+          class="row gx-0 align-items-center brandonNavBox"
+          style="margin-left: 4%"
+        >
+          <div class="col-3 brandonNavText" style="padding-left: 27px">
+            <a href="./pages/Menu.html">MENU</a>
+          </div>
+          <div class="col-3 brandonNavText">
+            <a href="./pages/Gallery.html">GALLERY</a>
+          </div>
+          <div class="col text-center brandonOrderOnline brandonNavText">
+            <a href href="https://app.masa.plus/store/4367">ORDER ONLINE</a>
+          </div>
+        </div>
+      </div>
+      <!-- hide in phone mode -->
+
+      <!-- phone mode -->
+      <div class="row d-block d-sm-block d-md-none gx-0 brandonLogoBox2">
+        <div class="row g-0 justify-content-center mt-4">
+          <img
+            class="img-fluid"
+            style="
+              height: auto;
+              width: 100%;
+              padding-left: 2%;
+              padding-right: 2%;
+            "
+            src="./assets/logo.png"
+            alt="Komachi logo"
+          />
+        </div>
+        <div
+          class="row g-0 justify-content-center align-items-center brandonLogoText"
+        >
+          Actualizing Lodi's town beauty through Japanese Cuisine.
+        </div>
+        <div class="row g-0" style="margin-top: 40px">
+          <div
+            class="col-3 brandonNavText2 text-end align-items-center"
+            style="margin-left: 4%"
+          >
+            <a href="./pages/Menu.html">MENU</a>
+          </div>
+          <div class="col-3 brandonNavText2 text-center align-items-center">
+            <a href="./pages/Gallery.html">GALLERY</a>
+          </div>
+          <div
+            class="col text-center brandonNavText2 brandonOrderOnline2 align-items-center"
+          >
+            <a href="https://app.masa.plus/store/4367"> ORDER ONLINE </a>
+          </div>
+        </div>
+      </div>
+      <!-- phone mode -->
+    </div>
+    <!-- Hero Image End -->
+
+    <!-- Sticky Nav bar Start -->
+    <nav
+      class="navbar navbar-expand-lg brandonNav g-0 d-none d-lg-block d-xl-block d-xxl-block"
+      style="padding: 0; height: 92px"
+    >
+      <div class="container-fluid g-0">
+        <a class="navbar-brand" style="margin-left: 1.25%" href="index.html"
+          ><img src="./assets/logo.png" alt="Komachi logo"
+        /></a>
+
+        <a
+          class="navbar-brand d-none d-xl-block d-xxl-block"
+          href="https://www.yelp.com/biz/komachi-sushi-lodi"
+          ><img src="./assets/yelpLogo.png" alt="Yelp logo"
+        /></a>
+        <a
+          class="navbar-brand d-none d-xl-block d-xxl-block"
+          href="https://www.tripadvisor.com/Restaurant_Review-g32640-d4842910-Reviews-Komachi_Sushi-Lodi_California.html"
+          ><img src="./assets/tripLogo.png" alt="Trip advisor logo"
+        /></a>
+        <a
+          class="navbar-brand d-none d-xl-block d-xxl-block"
+          href="https://www.instagram.com/komachisushi/?hl=en"
+          ><img
+            src="./assets/34b272f1-4361-4006-ae0a-955f343b1c13.png"
+            alt="Instagram logo"
+        /></a>
+        <a
+          class="navbar-brand d-none d-xl-block d-xxl-block"
+          href="https://www.facebook.com/komachilodi"
+          ><img src="./assets/facebookLogo.png" alt="Facebook logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          style="margin-right: 5%"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav text-center">
+            <li class="nav-item me-4" style="padding-top: 27px">
+              <a class="brandonStickyNav" href="index.html">Home</a>
+            </li>
+
+            <li
+              class="nav-item dropdown brandonNavDropping me-4"
+              style="padding-top: 27px"
+            >
+              <a
+                class="brandonStickyNav"
+                style="width: 110px"
+                href="./pages/Menu.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                &nbsp; &nbsp; Menu> &nbsp; &nbsp;
+              </a>
+              <ul
+                class="dropdown-menu brandonNavDropMenu brandonNavDrop"
+                style="background-color: rgb(238, 215, 197)"
+              >
+                <li>
+                  <a class="dropdown-item" href="./pages/Appetizers.html"
+                    >Appetizers & Salads</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="./pages/SizzlingPlate.Html"
+                    >Sizzling Plate / Sukiyaki</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="./pages/Entree.html"
+                    >Entrees & Bentos</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="./pages/Ramen.html"
+                    >Ramen / Udon & Soba</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="./pages/Donburi.html"
+                    >Donburi & Sashimi</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="./pages/Rolls.html"
+                    >Sushi Rolls</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="./pages/Desserts.html"
+                    >Desserts & Drinks</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item ms-1 me-4" style="padding-top: 27px">
+              <a class="brandonStickyNav" href="./pages/Gallery.html"
+                >Gallery</a
+              >
+            </li>
+            <a
+              class="brandonStickyNavOrder nav-item brandonNavOrder"
+              style="padding-top: 15px"
+              href="https://app.masa.plus/store/4367"
+              >Order Online</a
+            >
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Stick Nav bar End -->
+
+    <!-- About Us Start -->
+    <div class="container-fluid brandonAboutUsBG">
+      <div class="row">
+        <div class="col-6 d-none d-xxl-block">
+          <div class="row brandonAboutUsImg">
+            <div class="col-3">
+              <img
+                src="./assets/Pattern.png"
+                style="object-fit: cover"
+                alt="White Pattern"
+              />
+            </div>
+            <div class="col-9">
+              <img
+                class="img-fluid"
+                style="padding-top: 1px"
+                src="./assets/homePagePic.png"
+                alt="Sushi board"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-auto col-xxl-6 brandonAboutUsText"
+          style="margin-top: 6%"
+        >
+          <p class="brandonAboutUsTitle">ABOUT US</p>
+          <p class="brandonAboutUs">
+            Komachi strives to translate the beauty of Lodi into appetizing and
+            authentic Japanese cuisine. We promise to be your new sushi family.
+            Welcome home!
+          </p>
+          <p class="brandonAboutUs mt-4">
+            Established in 2013. Sunny has been in Japanese food industry for 25
+            years. She has launched a brand new restaurant in Lodi to serve the
+            people she fell so in love with.
+          </p>
+          <p class="brandonAboutUs mt-4">
+            Now days, there are very little Japanese Restaurants who specialize
+            in Authentic Japanese Cuisine. Well, look no further! We specialize
+            in Authentic Japanese Cuisine to modern sushi rolls as well. Please
+            come in, let us serve you. You'll feel right at home.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- About Us End -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
