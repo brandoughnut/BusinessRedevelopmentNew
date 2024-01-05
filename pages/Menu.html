@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Menu Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../styles/style2.css">
+  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="stylesheet" href="../styles/style3.css">
+</head>
+
+<body>
+
+  <!-- <div class="container-fluid marcosMenuHeader d-flex align-items-center  justify-content-center">
+    <div class="row">
+      <div class="col">
+        <p class="marcosHeaderText">Menu</p>
+      </div>
+    </div>
+  </div> -->
+
+  <!-- mobile navbar start -->
+  <nav
+  class="navbar navbar-expand-lg g-0 d-lg-none d-xl-none d-xxl-none fixed-top"
+  style="padding: 0; margin-top: 2%;"
+>
+  <div class="container-fluid g-0 d-flex justify-content-end">
+    <button
+      class="navbar-toggler custom-toggler brandonNavToggle"
+      style="margin-right: 5%"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div
+      class="collapse navbar-collapse justify-content-end"
+      id="navbarSupportedContent"
+      style="background-color: rgb(238, 215, 197)"
+    >
+      <ul class="navbar-nav text-center">
+        <li><hr /></li>
+        <li class="nav-item">
+          <a class="brandonStickyNav" href="../index.html">Home</a>
+        </li>
+        <li><hr class="" /></li>
+        <li class="nav-item dropdown brandonNavDropdown ms-1">
+          <a
+            class="brandonStickyNav"
+            href="./Menu.html"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Menu>
+          </a>
+          <ul
+            class="dropdown-menu brandonNavDrop brandonNavDropMenu"
+            style="background-color: rgb(238, 215, 197)"
+          >
+            <li>
+              <a class="dropdown-item text-center" href="./Appetizers.html"
+                >Appetizers & Salads</a
+              >
+            </li>
+            <li><hr class="dropdown-divider" /></li>
+            <li>
+              <a
+                class="dropdown-item text-center"
+                href="./SizzlingPlate.Html"
+                >Sizzling Plate / Sukiyaki</a
+              >
+            </li>
+            <li><hr class="dropdown-divider" /></li>
+            <li>
+              <a class="dropdown-item text-center" href="./Entree.html"
+                >Entrees & Bentos</a
+              >
+            </li>
+            <li><hr class="dropdown-divider" /></li>
+            <li>
+              <a class="dropdown-item text-center" href="./Ramen.html"
+                >Ramen / Udon & Soba</a
+              >
+            </li>
+            <li><hr class="dropdown-divider" /></li>
+            <li>
+              <a class="dropdown-item text-center" href="./Donburi.html"
+                >Donburi & Sashimi</a
+              >
+            </li>
+            <li><hr class="dropdown-divider" /></li>
+            <li>
+              <a class="dropdown-item text-center" href="./Rolls.html"
+                >Sushi Rolls</a
+              >
+            </li>
+            <li><hr class="dropdown-divider" /></li>
+            <li>
+              <a class="dropdown-item text-center" href="./Desserts.html"
+                >Desserts & Drinks</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li><hr class="" /></li>
+        <li class="nav-item mb-3">
+          <a class="brandonStickyNav" href="./Gallery.html">Gallery</a>
+        </li>
+        <a
+          class="brandonStickyNavOrder nav-item brandonNavOrder"
+          style="padding-top: 15px; margin-bottom: 2%"
+          href="https://app.masa.plus/store/4367" target="_blank"
+          >Order Online</a
+        >
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- mobile navbar end -->
+
+<!-- Sticky Nav bar Start -->
+<nav
+  class="navbar navbar-expand-lg g-0 d-none d-lg-block d-xl-block d-xxl-block fixed-top"
+  style="
+    padding: 0;
+    height: 92px;
+    background-color: rgb(238, 215, 197, 0.8);
+  "
+>
+  <div class="container-fluid g-0">
+    <a class="navbar-brand" style="margin-left: 1.25%" href="../index.html"
+      ><img src="../assets/logo.png" alt="Komachi logo"
+    /></a>
+
+    <a
+      class="navbar-brand d-none d-xl-block d-xxl-block"
+      href="https://www.yelp.com/biz/komachi-sushi-lodi" target="_blank"
+      ><img src="../assets/yelpLogo.png" alt="Yelp logo"
+    /></a>
+    <a
+      class="navbar-brand d-none d-xl-block d-xxl-block"
+      href="https://www.tripadvisor.com/Restaurant_Review-g32640-d4842910-Reviews-Komachi_Sushi-Lodi_California.html" target="_blank"
+      ><img src="../assets/tripLogo.png" alt="Trip advisor logo"
+    /></a>
+    <a
+      class="navbar-brand d-none d-xl-block d-xxl-block"
+      href="https://www.instagram.com/komachisushi/?hl=en" target="_blank"
+      ><img
+        src="../assets/34b272f1-4361-4006-ae0a-955f343b1c13.png"
+        alt="Instagram logo"
+    /></a>
+    <a
+      class="navbar-brand d-none d-xl-block d-xxl-block"
+      href="https://www.facebook.com/komachilodi" target="_blank"
+      ><img src="../assets/facebookLogo.png" alt="Facebook logo"
+    /></a>
+    <button
+      class="navbar-toggler"
+      style="margin-right: 5%"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div
+      class="collapse navbar-collapse justify-content-end"
+      id="navbarSupportedContent"
+    >
+      <ul class="navbar-nav text-center">
+        <li class="nav-item me-4" style="padding-top: 27px">
+          <a class="brandonStickyNav" href="../index.html">Home</a>
+        </li>
+
+        <li
+          class="nav-item dropdown brandonNavDropping me-4"
+          style="padding-top: 27px"
+        >
+          <a
+            class="brandonStickyNav"
+            style="width: 110px"
+            href="./Menu.html"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            &nbsp; &nbsp; Menu> &nbsp; &nbsp;
+          </a>
+          <ul
+            class="dropdown-menu brandonNavDrop"
+            style="background-color: rgb(238, 215, 197)"
+          >
+            <li>
+              <a class="dropdown-item" href="./Appetizers.html"
+                >Appetizers & Salads</a
+              >
+            </li>
+            <li><hr class="dropdown-divider" /></li>
+            <li>
+              <a class="dropdown-item" href="./SizzlingPlate.Html"
+                >Sizzling Plate / Sukiyaki</a
+              >
+            </li>
+            <li><hr class="dropdown-divider" /></li>
+            <li>
+              <a class="dropdown-item" href="./Entree.html"
+                >Entrees & Bentos</a
+              >
+            </li>
+            <li><hr class="dropdown-divider" /></li>
+            <li>
+              <a class="dropdown-item" href="./Ramen.html"
+                >Ramen / Udon & Soba</a
+              >
+            </li>
+            <li><hr class="dropdown-divider" /></li>
+            <li>
+              <a class="dropdown-item" href="./Donburi.html"
+                >Donburi & Sashimi</a
+              >
+            </li>
+            <li><hr class="dropdown-divider" /></li>
+            <li>
+              <a class="dropdown-item" href="./Rolls.html">Sushi Rolls</a>
+            </li>
+            <li><hr class="dropdown-divider" /></li>
+            <li>
+              <a class="dropdown-item" href="./Desserts.html"
+                >Desserts & Drinks</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item ms-1 me-4" style="padding-top: 27px">
+          <a class="brandonStickyNav" href="./Gallery.html">Gallery</a>
+        </li>
+        <a
+          class="brandonStickyNavOrder nav-item brandonNavOrder"
+          style="padding-top: 15px"
+          href="https://app.masa.plus/store/4367" target="_blank"
+          >Order Online</a
+        >
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Stick Nav bar End -->
+
+  <div class="header">
+    <p>Menu</p>
+  </div>
+
+
+
+
+
+  <div class="container-fluid marcosPaddingTop marcosPadding ">
+    <div class="row ">
+      <div class="col">
+        <!--  -->
+        <a href="./Rolls.html">
+          <div class="marcosContainer">
+            <img class="marcosRollsBtn" src="../assets/rollBtn.png" alt="sushi roll btn">
+            <div class="marcosTextCentered2">
+              Rolls
+            </div>
+          </div>
+
+      </div>
+      </a>
+
+    </div>
+
+
+    <div class="d-none d-xxl-block d-xl-block">
+      <div class="row marcosPaddingTop ">
+        <div class="col d-flex justify-content-start">
+
+          <a href="./Appetizers.html">
+            <div class="marcosContainer">
+              <img class="marcosRamenBtn" src="../assets/saladBtn.png" alt="salad">
+              <div class="marcosTextCentered">
+                appetizers & salads
+              </div>
+            </div>
+          </a>
+
+          <!--  -->
+        </div>
+
+        <div class="col d-flex justify-content-center">
+          <!--  -->
+
+          <a href="./Ramen.html">
+            <div class="marcosContainer">
+              <img class="marcosRamenBtn" src="../assets/RamenBtn.png" alt="ramen">
+              <div class="marcosTextCentered">
+                Ramen / udon & soba
+              </div>
+            </div>
+          </a>
+
+
+        </div>
+        <div class="col d-flex justify-content-end">
+          <!--  -->
+
+          <a href="./Donburi.html">
+            <div class="marcosContainer">
+              <img class="marcosRamenBtn" src="../assets/sashimiBtn.png" alt="sashimi">
+              <div class="marcosTextCentered">
+                donburi & sashimi
+              </div>
+            </div>
+          </a>
+
+
+        </div>
+      </div>
+
+      <div class="row  marcosPaddingTop">
+        <div class="col d-flex justify-content-start">
+
+          <a href="./Desserts.html">
+            <div class="marcosContainer">
+              <img class="marcosRamenBtn" src="../assets/DrinksBtn.png" alt="drinks">
+              <div class="marcosTextCentered">
+                desserts & drinks
+              </div>
+            </div>
+          </a>
+          <!--  -->
+
+
+        </div>
+        <div class="col d-flex justify-content-center">
+          <!--  -->
+
+          <a href="./SizzlingPlate.Html">
+            <div class="marcosContainer">
+              <img class="marcosRamenBtn" src="../assets/sizzlingPlateBtn.png" alt="sizzling Plates">
+              <div class="marcosTextCentered">
+                Sizzling Plate & Sukiyaki
+              </div>
+            </div>
+          </a>
+
+
+        </div>
+        <div class="col d-flex justify-content-end">
+          <!--  -->
+
+          <a href="./Entree.html">
+            <div class="marcosContainer">
+              <img class="marcosRamenBtn" src="../assets/EntreesBtn.png" alt="entrees">
+              <div class="marcosTextCentered">
+                Entrees & bentos
+              </div>
+            </div>
+          </a>
+
+
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+    <!-- second half -->
+    <div class="d-xxl-none d-xl-none d-xxl-block">
+
+
+
+      <div class="row marcosPaddingTop ">
+        <div class="col d-flex justify-content-start">
+
+
+          <a href="./Appetizers.html">
+            <div class="marcosContainer">
+              <img class="marcosRamenBtn" src="../assets/saladBtn.png" alt="salad">
+              <div class="marcosTextCentered">
+                appetizers & salads
+              </div>
+            </div>
+          </a>
+
+          <!--  -->
+        </div>
+
+        <div class="col d-flex justify-content-end">
+          <!--  -->
+
+          <a href="./SizzlingPlate.Html">
+            <div class="marcosContainer">
+              <img class="marcosRamenBtn" src="../assets/sizzlingPlateBtn.png" alt="ramen">
+              <div class="marcosTextCentered">
+                Sizzling&#160;Plate & Sukiyaki
+              </div>
+            </div>
+          </a>
+
+
+        </div>
+      </div>
+
+
+      <div class="row marcosPaddingTop ">
+        <div class="col d-flex justify-content-start">
+
+          <a href="./Ramen.html">
+            <div class="marcosContainer">
+              <img class="marcosRamenBtn" src="../assets/RamenBtn.png" alt="salad">
+              <div class="marcosTextCentered">
+                Ramen&#160;/&#160;udon & soba
+              </div>
+            </div>
+          </a>
+
+          <!--  -->
+        </div>
+
+        <div class="col d-flex justify-content-end">
+          <!--  -->
+
+          <a href="./Donburi.html">
+            <div class="marcosContainer">
+              <img class="marcosRamenBtn" src="../assets/sashimiBtn.png" alt="ramen">
+              <div class="marcosTextCentered">
+                donburi
+                &&#160;sashimi
+              </div>
+            </div>
+          </a>
+
+
+        </div>
+      </div>
+
+
+      <div class="row marcosPaddingTop ">
+        <div class="col d-flex justify-content-start">
+
+
+          <a href="./Entree.html">
+            <div class="marcosContainer">
+              <img class="marcosRamenBtn" src="../assets/EntreesBtn.png" alt="salad">
+              <div class="marcosTextCentered">
+                Entrees
+                &&#160;bentos
+              </div>
+            </div>
+          </a>
+
+          <!--  -->
+        </div>
+
+        <div class="col d-flex justify-content-end">
+          <!--  -->
+
+          <a href="./Desserts.html">
+            <div class="marcosContainer">
+              <img class="marcosRamenBtn" src="../assets/DrinksBtn.png" alt="ramen">
+              <div class="marcosTextCentered">
+                desserts
+                & drinks
+              </div>
+            </div>
+          </a>
+
+
+        </div>
+      </div>
+
+
+
+    </div>
+
+  </div>
+
+
+  <!-- Footer -->
+  <div class="container-fluid TylerFooterBox mt-5">
+    <div class="row">
+      <div class="col-xl-4 col-lg-12">
+        <div>
+          <p class="TylerMobileFooter"><img class="TylerFooterLogo" src="../assets/logo.png" alt="Business Logo"></p>
+          <div class="d-flex justify-content-center align-items-center">
+            <a href="https://www.yelp.com/biz/komachi-sushi-lodi" target="_blank"><img class="TylerFooterYelpLogo" src="../assets/FootYelpLogo.png" alt="Yelp Logo"></a>
+            <a href="https://www.tripadvisor.com/Restaurant_Review-g32640-d4842910-Reviews-Komachi_Sushi-Lodi_California.html" target="_blank"><img class="TylerFooterTripLogo" src="../assets/FootTripLogo.png" alt="Trip Logo"></a>
+            <a href="https://www.instagram.com/komachisushi/?hl=en" target="_blank"><img class="TylerFooterInstaLogo" src="../assets/FootInstaLogo.png" alt="Insta Logo"></a>
+            <a href="https://www.facebook.com/komachilodi" target="_blank"><img class="TylerFooterFaceLogo" src="../assets/FootFaceLogo.png" alt="Facebook Logo"></a>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="col-xl-4 col-lg-12 ">
+        <p class="TylerFooterTextHead TylerMobileFooter">Address</p>
+        <a style="color: black;" href="https://www.google.com/maps/dir//google+maps+komachi+sushi/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x809aa05f16b1acc7:0xe9cb6729dc481cf4?sa=X&ved=2ahUKEwi2wLKO_cuCAxW2N0QIHZw4DOQQ9Rd6BAheEAA&sqi=2"><p class="TylerFooterText TylerFootMargin TylerMobileFooter" target="_blank">307 S. Lower Sacramento Rd Suite D. Lodi, CA 95242
+        </p></a>
+        <p class="TylerFooterTextHead TylerMobileFooter">Contact</p>
+        <p class="TylerFooterText TylerFootMargin  TylerMobileFooter">209-334-3131</p>
+        <p class="TylerFooterText TylerFootMargin  TylerMobileFooter">komachisushi.inc@gmail.com</p>
+      </div>
+      <div class="col-xl-4 d-lg-12 d-flex justify-content-center">
+        <div>
+          <p class="TylerFooterTextHead TylerMobileFooter">Hours</p>
+          <p class="TylerFooterText TylerFooterLeftAlign">Monday - 11:30am to 8:30pm</p>
+          <p class="TylerFooterText TylerFooterLeftAlign">Tuesday - 11:30am to 8:30pm</p>
+          <p class="TylerFooterText TylerFooterLeftAlign">Wednesday - 11:30am to 8:30pm</p>
+          <p class="TylerFooterText TylerFooterLeftAlign">Thursday - 11:30am to 8:30pm</p>
+          <p class="TylerFooterText TylerFooterLeftAlign">Friday - 11:30am to 9:00pm</p>
+          <p class="TylerFooterText TylerFooterLeftAlign">Saturday - 11:30am to 9:00pm</p>
+          <p class="TylerFooterText TylerFooterLeftAlign">Sunday - Closed</p>
+        </div>
+
+
+      </div>
+    </div>
+
+    <div class="TylerlineBreak"></div>
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
