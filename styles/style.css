@@ -15,7 +15,7 @@
 }
 
 /* End of Fonts */
-body{
+.TylerBody{
     background: radial-gradient(circle at center, #2B2C28, #131515);
 }
 .TylerHeroMenu{
@@ -517,13 +517,13 @@ body{
     padding-bottom: 29px;
     margin-bottom: 0px;
 }
-.marcosMenuText {
+.TylerMenuText {
     font-size: 25px;
     color: white;
     font-family: Krub-Regular;
 }
 
-.marcosMenuTextHeader {
+.TylerMenuTextHeader {
     font-family: Koulen-Regular;
     font-size: 30px;
     color: white;
