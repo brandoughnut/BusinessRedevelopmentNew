@@ -2328,3 +2328,9 @@
     }
   }
   
+  .hamburger {
+    background-color: rgba(238, 215, 197);
+  }
+  .hamburger2 {
+    background-color: none;
+  }
