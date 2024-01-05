@@ -27,7 +27,7 @@
     font-family: Koulen-Regular;
 }
 
-body {
+.marcosBody {
     background: radial-gradient(circle at center, #2B2C28, #131515);
 }
 
